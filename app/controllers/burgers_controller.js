@@ -10,20 +10,20 @@ router.get("/", function(req, result) {
 		var object = {
 			burgers: data
 		};
-		res.render("index", object);
+		result.render("index", object);
 	});
 });
 
 router.post("/", function(req, result){
 	burgers.insertOne(req.body.name, function() {
-		res.redirect("/");
+		result.redirect("/");
 	});
 });
 
 router.put("/:id", function (req, result) {
 	var condition = "id = " + req.params.id;
 	burgers.updateOne(condition, function() {
-		res.redirect("/");
+		result.redirect("/");
 	});
 });
 

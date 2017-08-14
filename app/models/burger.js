@@ -14,7 +14,7 @@ var burger = {
 	},
 
 	updateOne: function(condition, cb) {
-		handler.updateOne("burgers", name, function(res){
+		handler.updateOne("burgers", condition, function(res){
 			cb(res);
 		})
 	}
