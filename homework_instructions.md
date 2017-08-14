@@ -89,11 +89,11 @@ Be sure to utilize the [MYSQL Heroku Deployment Guide](../Supplemental/MySQLHero
 <!-- 
    * Import (require) `connection.js` into `orm.js` -->
 
-   * In the `orm.js` file, create the methods that will execute the necessary MySQL commands in the controllers. These are the methods you will need to use in order to retrieve and store data in your database.
+<!--    * In the `orm.js` file, create the methods that will execute the necessary MySQL commands in the controllers. These are the methods you will need to use in order to retrieve and store data in your database.
 
      * `selectAll()` 
      * `insertOne()` 
-     * `updateOne()` 
+     * `updateOne()`  -->
 
 <!--    * Export the ORM object in `module.exports`. -->
 
@@ -105,7 +105,7 @@ Be sure to utilize the [MYSQL Heroku Deployment Guide](../Supplemental/MySQLHero
 
 <!--     * Inside `burger.js`, import `orm.js` into `burger.js` -->
 
-    * Also inside `burger.js`, create the code that will call the ORM functions using burger specific input for the ORM.
+<!--     * Also inside `burger.js`, create the code that will call the ORM functions using burger specific input for the ORM. -->
 
 <!--     * Export at the end of the `burger.js` file. -->
 
@@ -120,7 +120,7 @@ Be sure to utilize the [MYSQL Heroku Deployment Guide](../Supplemental/MySQLHero
    * Express
    * `burger.js` -->
 
-4. Create the `router` for the app, and export the `router` at the end of your file.
+<!-- 4. Create the `router` for the app, and export the `router` at the end of your file. -->
 
 #### View setup
 
@@ -140,7 +140,7 @@ Be sure to utilize the [MYSQL Heroku Deployment Guide](../Supplemental/MySQLHero
 
 #### Directory structure
 
-All the recommended files and directories from the steps above should look like the following structure:
+<!-- All the recommended files and directories from the steps above should look like the following structure:
 
 ```
 .
@@ -178,9 +178,9 @@ All the recommended files and directories from the steps above should look like 
         └── main.handlebars
 ```
 
-- - -
+- - - -->
 
-### Minimum Requirements
+<!-- ### Minimum Requirements
 
 Attempt to complete homework assignment as described in instructions. If unable to complete certain portions, please pseudocode these portions to describe what remains to be completed.
 
@@ -196,4 +196,4 @@ If you have any questions about this project or the material we have covered, pl
 
 ## Copyright
 
-Coding Boot Camp (C) 2016. All Rights Reserved.
+Coding Boot Camp (C) 2016. All Rights Reserved. -->

@@ -1,16 +1,22 @@
 var handler = require("../config/orm.js");
 
 var burger = {
-	selectAll: function() {
-		handler.selectAll()
+	selectAll: function(cb) {
+		handler.selectAll("burgers", function(res) {
+			cb(res);
+		});
 	},
 
-	insertOne: function() {
-		handler.insertOne()
+	insertOne: function(name, cb) {
+		handler.insertOne("burgers", name, function(res){
+			cb(res);
+		})
 	},
 
-	updateOne: function() {
-		handler.updateOne()
+	updateOne: function(condition, cb) {
+		handler.updateOne("burgers", name, function(res){
+			cb(res);
+		})
 	}
 };
 
