@@ -26,3 +26,5 @@ router.put("/:id", function (req, result) {
 		res.redirect("/");
 	});
 });
+
+module.exports = router;
